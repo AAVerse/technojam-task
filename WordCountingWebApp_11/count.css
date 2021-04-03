@@ -1,0 +1,17 @@
+#main{
+    margin: 50px auto;
+    background-color:rgb(85, 248, 237);
+    width: fit-content;
+    padding: 50px 50px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+#heading{
+    padding: 20px;
+    width: 500px;
+}
+
+.ans{
+    display: none;
+}
