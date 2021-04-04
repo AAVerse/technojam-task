@@ -1,0 +1,10 @@
+# LOOK Algorithm Theory
+
+Look Algorithm is a disk scheduling algorithm used to schedule the Input/Output requests that arrive at the disk.
+It is considered among the most efficient algorithms for disc scheduling.
+
+Working:
+  The head moves from the given position to the last input/output request in the given direction and from the last
+  request, it turns back and moves to the opposite end last reques and then repeats the same as above. 
+  While this movement it completes the tasks in the order it finds them.
+  
