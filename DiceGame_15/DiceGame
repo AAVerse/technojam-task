@@ -1,0 +1,12 @@
+There are two given cases:
+ *1
+ We recieve the dollar sum comparable to the result of two dices.
+ Let consider the max situation, that is the sum to be 12(6+6).
+ This is the highest we could get in this game.
+ 
+ *2
+ We recieve the dollar sum equal to the square of the resultant number.
+ Let's consider the max situation, that is the number to be 6, hence the sum to be 36.\
+ This is the highest we could get in this game.
+ 
+If we compare the above two cases, then it looks like the case 2 has more probable profit than the case 1.
