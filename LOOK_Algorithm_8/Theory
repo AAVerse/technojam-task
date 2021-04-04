@@ -8,3 +8,32 @@ Working:
   request, it turns back and moves to the opposite end last reques and then repeats the same as above. 
   While this movement it completes the tasks in the order it finds them.
   
+Advantages:
+  If there are no requests left to be services the Head will not move to the end of the disk unlike SCAN algorithm.
+  Better performance is provided compared to SCAN Algorithm.
+  Starvation is avoided in LOOK scheduling algorithm.
+  Low variance is provided in waiting time and response time.
+  
+Disadvantages:
+  Overhead of finding the end requests is present.
+  Cylinders which are just visited by Head have to wait for long time.
+  
+  
+--------------------------------------------------------------------------------------------------------------------
+Example:
+            _________________________________________________________________________________  
+            0     14      41      53      65      67      98      122     124     183     199
+                                   *
+                                           *
+                                                  *     
+                                                          * 
+                                                                   *
+                                                                           *
+                                                                                   *
+                                                                                   
+                           *
+                   *
+                   
+                   
+            In this the head starts at 53 and goes til 183 which is the last process(In SCAN algorithm,
+            it would go till 199). After reaching 183 it turns at goes till 14.
